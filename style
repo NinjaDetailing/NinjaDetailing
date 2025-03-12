@@ -1,0 +1,88 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.services {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services li {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.booking {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+}
+
+.booking h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.booking form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.booking label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.booking input,
+.booking select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.booking button {
+    width: 100%;
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
