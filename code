@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Detailing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Car Detailing Service</h1>
+        <p>Professional Car Care, Inside and Out</p>
+    </header>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Exterior Detailing</li>
+            <li>Interior Cleaning</li>
+            <li>Full Detailing Packages</li>
+            <li>Paint Protection</li>
+        </ul>
+    </section>
+
+    <section class="booking">
+        <h2>Book an Appointment</h2>
+        <form action="https://example.com/submit" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service" required>
+                <option value="exterior">Exterior Detailing</option>
+                <option value="interior">Interior Cleaning</option>
+                <option value="full">Full Detailing</option>
+            </select>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Submit Booking</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us at: info@cardetailing.com</p>
+    </footer>
+</body>
+</html>
